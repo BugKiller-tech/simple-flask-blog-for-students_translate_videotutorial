@@ -1,3 +1,6 @@
+MUST SEE FROM PART 7
+
+
 Memory by learning this series by the hkg328!
 
 ```
@@ -52,4 +55,18 @@ but this is ugly solution!
 What is the solution? The solution is to make our app as package.
 
 
+> Install flask-bcrypt to encrypt the user password
+```
+pip install flask-bcrypt
+```
 
+> Install flask-login 
+```
+pip install flask-login
+```
+
+
+> install package called pillow to resize the image
+```
+pip install Pillow
+```
