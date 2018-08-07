@@ -1,4 +1,4 @@
-MUST SEE FROM PART 7
+MUST SEE FROM PART 9  7:20
 
 
 Memory by learning this series by the hkg328!
