@@ -1,7 +1,9 @@
+import os
 from flask import Flask
 from flask_sqlalchemy import SQLAlchemy
 from flask_bcrypt import Bcrypt
 from flask_login import LoginManager
+from flask_mail import Mail
 
 
 app = Flask(__name__)
@@ -15,6 +17,16 @@ login_manager.login_message_category = 'info';
 
 # db.create_all() will generate all the database tables
 # db.drop_all() will remove all the database table
+
+
+app.config['MAIL_SERVER'] = 'smtp.googleemail.com'
+app.config['MAIL_PORT'] = 587
+app.config['MAIL_USE_TLS'] = True
+app.config['MAIL_USERNAME'] = os.environ.get('EMAIL_USER')
+app.config['MAIL_PASSWORD'] = os.environ.get('EMAL_PASS')
+
+mail = Mail(app)
+
 
 
 

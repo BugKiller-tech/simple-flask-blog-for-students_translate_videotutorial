@@ -1,4 +1,3 @@
-MUST SEE FROM PART 9  7:20
 
 
 Memory by learning this series by the hkg328!
@@ -69,4 +68,9 @@ pip install flask-login
 > install package called pillow to resize the image
 ```
 pip install Pillow
+```
+
+> To send reset password token email, we'll use the extension called "flask-mail"
+```
+pip instal flask-mail
 ```
