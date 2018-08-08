@@ -74,3 +74,12 @@ pip install Pillow
 ```
 pip instal flask-mail
 ```
+
+
+```
+db = SQLAlchemy(app)
+
+# this is same with this
+db = SQLAlchemy()
+db.init_app(app)
+```
