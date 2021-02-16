@@ -1,7 +1,6 @@
 
 
-Memory by learning this series!
-
+# Brief guide
 ```
 export FLASK_APP=flaskblog.py    # in windows we need to do it set FLASK_APP=flaskblog.py
 export FLASK_DEBUG=1
