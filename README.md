@@ -1,6 +1,6 @@
 
 
-Memory by learning this series by the hkg328!
+Memory by learning this series!
 
 ```
 export FLASK_APP=flaskblog.py    # in windows we need to do it set FLASK_APP=flaskblog.py
